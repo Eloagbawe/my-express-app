@@ -22,6 +22,6 @@ mongoose
   )
   .then(result => {
     console.log("Database connected");
-    app.listen(3000);
+    app.listen(port);
   })
   .catch(err => console.log(err));
